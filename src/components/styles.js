@@ -100,7 +100,7 @@ export const Timer = styled.div`
     justify-content: center;
     color: ${cores.CLOCK};
     text-align: center;
-    font-size: 2vw;
+    font-size: 2vh;
     background-color: ${cores.AL};
     border-bottom: 2px solid ${cores.TASKS};
 `;
