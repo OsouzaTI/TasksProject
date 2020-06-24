@@ -11,6 +11,9 @@ function App(){
         <Provider store={store}>
             <Home>  
                 <Title>Black Lives Matter. ✊🏽</Title>
+                <Title size={14}>
+                    Github: <a href={'https://github.com/OsouzaTI/TasksProject'} target={'blank'}> {'->Tasks Project by Osouza'}</a>
+                </Title>
                 <Layout />
             </Home>
         </Provider>
