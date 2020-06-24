@@ -3,7 +3,7 @@ const cores = require('./colors/default.json')
 
 export const Title = styled.h1`
     color: ${cores.FG};
-    font-size: 5vh;
+    font-size: 16px;
     text-align: center;
 `;
 

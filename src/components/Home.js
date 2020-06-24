@@ -9,7 +9,8 @@ const store = storeConfig()
 function App(){
     return (
         <Provider store={store}>
-            <Home>                        
+            <Home>  
+                <Title>Black Lives Matter. ✊🏽</Title>
                 <Layout />
             </Home>
         </Provider>
