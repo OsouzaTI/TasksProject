@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 const cores = require('./colors/default.json')
 
 export const Title = styled.h1`
@@ -149,4 +149,31 @@ export const Formulario = styled.div`
     flex-direction: column;
     justify-content: space-around;
 
+`;
+
+// Create the keyframes
+const rotate = keyframes`
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+`;
+
+
+export const Splash = styled.div`
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+
+`;
+
+export const ContainerSplash = styled.div`
+    animation: ${rotate} 3s linear infinite;
 `;
