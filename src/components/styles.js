@@ -58,7 +58,7 @@ export const Tasks = styled.div`
     padding: 10px 0;
     margin-bottom: 10px;
     text-align: center;
-    /* line-height: 50px; */
+    color: white;
     border-radius: 5px;
     &:hover {
         transition: .5s;
@@ -122,6 +122,7 @@ export const TaskItemManager = styled.div`
     display: flex;
     flex-direction: row;
     color: ${props => props.checked ? 'white' : 'black'};
+    transition: .5s;
     background-color: ${props => props.checked ? cores.TASKS_CHECKED : 'white'} ;
     border-radius: 15px;
     padding: 5px 10px;
