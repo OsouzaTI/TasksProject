@@ -1,0 +1,11 @@
+{
+    "BG": "#273c75",
+    "FG": "#f5f6fa",
+    "AL": "#192a56",
+    "TASKS": "#40739e",
+    "TASKS_HOVER": "#0097e6",
+    "CONTENT": "#dcdde1",
+    "CLOCK": "#e1b12c",
+    "TASKS_MANAGER": "#487eb0",
+    "TASKS_CHECKED": "#44bd32"
+}
