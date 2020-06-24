@@ -175,5 +175,6 @@ export const Splash = styled.div`
 `;
 
 export const ContainerSplash = styled.div`
+    transition: .5s;
     animation: ${rotate} 3s linear infinite;
 `;

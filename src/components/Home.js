@@ -9,7 +9,7 @@ const store = storeConfig()
 function App(){
     const [loading, setLoading] = useState(false)
 
-    const splashScreen = (timer = 1000) => {
+    const splashScreen = (timer = 2000) => {
         return new Promise(resolve => {
             setTimeout(() => {
                 console.log('Resolvido')
